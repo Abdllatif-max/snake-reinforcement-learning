@@ -16,6 +16,11 @@ Currently, our trained model achieves up to 300 survival steps in a 15x15 grid e
 <ipython-input-6-1514ff8b5c37>:284: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
   old_weights = torch.load(OLD_CHECKPOINT_PATH, map_location="cpu")
 Loaded old model from: best_dqn_snake.pth
+
+```
+<ipython-input-6-1514ff8b5c37>:284: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  old_weights = torch.load(OLD_CHECKPOINT_PATH, map_location="cpu")
+Loaded old model from: best_dqn_snake.pth
 🔥 New Best Model at Episode 1 | Reward: -31.90
 🔥 New Best Model at Episode 3 | Reward: -23.30
 🔥 New Best Model at Episode 6 | Reward: -22.00
@@ -82,6 +87,7 @@ Episode 1550 | Avg Reward (last 50): 347.27 | Avg Steps: 329.5 | Epsilon: 0.010
 Episode 1600 | Avg Reward (last 50): 326.20 | Avg Steps: 318.7 | Epsilon: 0.010
 Episode 1650 | Avg Reward (last 50): 336.87 | Avg Steps: 330.3 | Epsilon: 0.010
 Episode 1700 | Avg Reward (last 50): 340.04 | Avg Steps: 316.0 | Epsilon: 0.010
+```
 
 ---
 
