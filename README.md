@@ -11,7 +11,7 @@ Our goal is to train an AI agent to master Snake by learning optimal movement st
 
 In this document, we'll cover the key aspects of the project, including setup, training, and improvements. You can download and run the AI-powered Snake on your computer and even enhance its capabilities further.
 
-Currently, our trained model achieves up to 300 survival steps in a 15x15 grid environment.
+Currently, our trained model achieves up to 300 survival steps in a 15x15 grid environment, even by training less then 4000 episodes, which is impressive!
 
 
 ---
@@ -61,6 +61,7 @@ Here are some screenshots of the AI learning and playing the game:
 ---
 
 ## 🚀 Future Improvements
+You can go far with this project by considering the followings:
 - 🔥 Implement PPO / A3C for comparison
 - 🏆 Optimize training efficiency
 - 🎥 Add a demo video of the AI playing Snake
@@ -68,7 +69,7 @@ Here are some screenshots of the AI learning and playing the game:
 ---
 
 ## 👨‍💻 Author
-**Abdllatif-max**  
+**Abdllatif Mokafih**  
 📌 GitHub: [@Abdllatif-max](https://github.com/Abdllatif-max)  
 
 ---
@@ -76,3 +77,5 @@ Here are some screenshots of the AI learning and playing the game:
 ## ⭐ Contribute & Support
 - **Star** 🌟 this repo if you like it!
 - **Pull Requests** are welcome for improvements.
+
+Thank you!
