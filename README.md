@@ -131,7 +131,7 @@ Here are some screenshots of the AI learning and playing the game:
 ---
 
 ## 🚀 Future Improvements
-You can go far with this project by considering the followings:
+If you want to expirement more you can go far with this project by considering the followings:
 - 🔥 Implement PPO / A3C for comparison
 - 🏆 Optimize training efficiency
 - 🎥 Add a demo video of the AI playing Snake
