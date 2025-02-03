@@ -20,7 +20,7 @@ Currently, our trained model achieves up to 300 survival steps in a 15x15 grid e
 - **Deep Q-Network (DQN)** for AI decision-making
 - **Reinforcement Learning applied to Snake**
 - **Optimized reward function for better learning**
-- **TensorFlow / PyTorch support** (Choose your preferred framework)
+- **PyTorch support**
 
 ---
 
