@@ -11,7 +11,7 @@ Our goal is to train an AI agent to master Snake by learning optimal movement st
 
 In this document, we'll cover the key aspects of the project, including setup, training, and improvements. You can download and run the AI-powered Snake on your computer and even enhance its capabilities further.
 
-Currently, our trained model achieves up to 300 survival steps in a 15x15 grid environment, even by training less then 4000 episodes, which is impressive!
+Currently, our trained model achieved up to 300 survival steps in a 15x15 grid environment, even by training less then 4000 episodes, which is impressive!
 
 ```
 <ipython-input-6-1514ff8b5c37>:284: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
