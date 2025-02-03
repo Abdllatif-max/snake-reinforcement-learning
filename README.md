@@ -5,7 +5,6 @@ A **Snake game** powered by **Reinforcement Learning** using **Deep Q-Networks (
 
 ![Snake AI Training 4](images/4.png)
 
-The goal is to train an AI agent to play Snake efficiently by learning optimal movement strategies through trial and error. And it did.
 A Snake game enhanced by Reinforcement Learning using Deep Q-Networks (DQN).
 Our goal is to train an AI agent to master Snake by learning optimal movement strategies through trial and error—and it succeeded.
 
